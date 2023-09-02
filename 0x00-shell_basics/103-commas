@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -map
+ls -a | sed 's/$/,/' | sed 's/^\./\./' | sed 's/,$//' | tr '\n' ' '
