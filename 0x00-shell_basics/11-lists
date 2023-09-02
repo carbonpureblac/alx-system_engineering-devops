@@ -1,2 +1,4 @@
 #!/bin/bash
-ls -la
+ls -la "$(pwd)"
+ls -la "$(dirname "$(pwd)")"
+ls -la /boot
