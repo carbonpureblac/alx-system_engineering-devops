@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 .|grep -E "^[a-zA-Z].*[0-9].*\.[a-z]+$"
+ls -al . .. /boot
